@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "apps": [
+    {
+      "id": "acervo",
+      "name": "Acervo",
+      "kind": "Músicas, vídeos e letras",
+      "description": "Organize suas músicas e vídeos com playlists e letras sincronizadas, tudo num lugar só.",
+      "accent": "#8E9BFF",
+      "icon": "icons/acervo.png",
+      "productName": "Acervo",
+      "exe": "Acervo.exe",
+      "source": {
+        "type": "github",
+        "repo": "Kurota007/acervo-releases"
+      }
+    },
+    {
+      "id": "kurocord",
+      "name": "Kurocord",
+      "kind": "Chat, voz e tela",
+      "description": "O cantinho da sua turma. Chat, voz e compartilhamento de tela pra você e seus amigos.",
+      "accent": "#B5EE4B",
+      "icon": "icons/kurocord.png",
+      "productName": "Kurocord",
+      "exe": "Kurocord.exe",
+      "source": {
+        "type": "generic",
+        "url": "http://localhost:7878/apps/desktop/",
+        "serverFrom": {
+          "appData": "Kurocord",
+          "file": "config.json",
+          "key": "server",
+          "path": "/apps/desktop/"
+        },
+        "label": "Seu servidor Kurocord"
+      }
+    },
+    {
+      "id": "nijigen",
+      "name": "Nijigen",
+      "kind": "Animes, mangás e jogos",
+      "description": "Sua lista de animes, mangás e jogos, com sistema RPG, perfil e amigos.",
+      "accent": "#E879F9",
+      "icon": "https://raw.githubusercontent.com/Kurota007/bansho-releases/main/icons/nijigen.png",
+      "productName": "Nijigen",
+      "exe": "Nijigen.exe",
+      "source": {
+        "type": "github",
+        "repo": "Kurota007/nijigen-releases"
+      }
+    },
+    {
+      "id": "proximo",
+      "name": "Próximo app",
+      "kind": "Quase pronto",
+      "status": "soon",
+      "badge": "Em breve"
+    },
+    {
+      "id": "outros",
+      "name": "Outros projetos",
+      "kind": "Em desenvolvimento",
+      "status": "soon",
+      "badge": "Em andamento"
+    }
+  ]
+}
