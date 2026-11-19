@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "apps": [
     {
       "id": "acervo",
@@ -13,7 +13,53 @@
       "source": {
         "type": "github",
         "repo": "Kurota007/acervo-releases"
-      }
+      },
+      "about": "O Acervo junta as suas músicas e vídeos do PC num lugar só. Você aponta as pastas, ele monta a biblioteca e você ouve ou assiste direto nele, com playlists e fila.\n\nAs letras aparecem sozinhas e acompanham a música quando tem versão sincronizada. Dá pra baixar músicas e vídeos por link e escolher o visual do app.",
+      "features": [
+        {
+          "icon": "list",
+          "title": "Biblioteca das suas pastas",
+          "text": "Escolha as pastas e o Acervo organiza tudo"
+        },
+        {
+          "icon": "music",
+          "title": "Músicas e vídeos",
+          "text": "Toca os dois, com playlists e fila"
+        },
+        {
+          "icon": "text",
+          "title": "Letras sincronizadas",
+          "text": "Busca a letra sozinho e acompanha a música"
+        },
+        {
+          "icon": "download",
+          "title": "Downloads",
+          "text": "Baixe músicas e vídeos colando o link"
+        },
+        {
+          "icon": "palette",
+          "title": "Do seu jeito",
+          "text": "Tema escuro, AMOLED ou claro e cor de destaque"
+        }
+      ],
+      "screenshots": [
+        {
+          "src": "screens/acervo/1.jpg",
+          "caption": "Biblioteca"
+        },
+        {
+          "src": "screens/acervo/2.jpg",
+          "caption": "Biblioteca em grade"
+        },
+        {
+          "src": "screens/acervo/3.jpg",
+          "caption": "Downloads"
+        },
+        {
+          "src": "screens/acervo/4.jpg",
+          "caption": "Configurações"
+        }
+      ]
     },
     {
       "id": "kurocord",
@@ -34,13 +80,37 @@
           "path": "/apps/desktop/"
         },
         "label": "Seu servidor Kurocord"
-      }
+      },
+      "about": "O Kurocord é o cantinho da sua turma: chat, voz e tela, feito pra você e seus amigos e rodando no seu próprio PC. Só entra quem recebe convite.\n\nTem app de PC e de celular, que se atualizam sozinhos pelo seu servidor.",
+      "features": [
+        {
+          "icon": "chat",
+          "title": "Chat",
+          "text": "Servidores e canais pra sua turma"
+        },
+        {
+          "icon": "mic",
+          "title": "Calls de voz",
+          "text": "Com atalhos pra mutar e ensurdecer"
+        },
+        {
+          "icon": "screen",
+          "title": "Compartilhar a tela",
+          "text": "Com o som do PC junto"
+        },
+        {
+          "icon": "phone",
+          "title": "No celular também",
+          "text": "App de Android com notificações"
+        }
+      ],
+      "screenshots": []
     },
     {
       "id": "nijigen",
       "name": "Nijigen",
       "kind": "Animes, mangás e jogos",
-      "description": "Sua lista de animes, mangás e jogos, com sistema RPG, perfil e amigos.",
+      "description": "Sua lista de animes, mangás e jogos, com perfil e amigos.",
       "accent": "#E879F9",
       "icon": "https://raw.githubusercontent.com/Kurota007/bansho-releases/main/icons/nijigen.png",
       "productName": "Nijigen",
@@ -48,7 +118,106 @@
       "source": {
         "type": "github",
         "repo": "Kurota007/nijigen-releases"
-      }
+      },
+      "about": "O Nijigen é a sua lista de animes, mangás e jogos. Busque pelo nome ou cole o link do MyAnimeList ou da Steam, e organize tudo por status: Desejo, Andamento, Completo e Dropei.\n\nAcompanhe suas estatísticas, veja os jogos grátis e as promoções do que você quer, e compartilhe com os amigos.",
+      "features": [
+        {
+          "icon": "search",
+          "title": "Busca e importação",
+          "text": "Pelo nome ou pelo link do MyAnimeList e da Steam"
+        },
+        {
+          "icon": "list",
+          "title": "Listas por status",
+          "text": "Desejo, Andamento, Completo e Dropei"
+        },
+        {
+          "icon": "star",
+          "title": "Estatísticas",
+          "text": "Episódios, horas e distribuição das suas notas"
+        },
+        {
+          "icon": "game",
+          "title": "Promoções",
+          "text": "Jogos grátis e promoções da sua lista de desejos"
+        },
+        {
+          "icon": "users",
+          "title": "Amigos e ranking",
+          "text": "Perfil, amigos e feed de atividade"
+        },
+        {
+          "icon": "phone",
+          "title": "No celular também",
+          "text": "Versão pra Android"
+        }
+      ],
+      "screenshots": [
+        {
+          "src": "screens/nijigen/1.jpg",
+          "caption": "Sua lista de animes"
+        },
+        {
+          "src": "screens/nijigen/2.jpg",
+          "caption": "Mangás"
+        },
+        {
+          "src": "screens/nijigen/3.jpg",
+          "caption": "Estatísticas"
+        },
+        {
+          "src": "screens/nijigen/4.jpg",
+          "caption": "Jogos grátis e promoções"
+        }
+      ]
+    },
+    {
+      "id": "mangareader",
+      "name": "MangaReader",
+      "kind": "Leitor de mangás",
+      "description": "Sua biblioteca de mangás no PC: lê pastas, CBZ e PDF, com página dupla e leitura da direita pra esquerda.",
+      "accent": "#5B9DFF",
+      "icon": "icons/mangareader.png",
+      "productName": "MangaReader",
+      "exe": "MangaReader.exe",
+      "source": {
+        "type": "github",
+        "repo": "Kurota007/mangareader-releases"
+      },
+      "about": "O MangaReader é a sua biblioteca de mangás no PC. Aponte as pastas onde eles ficam e ele monta a biblioteca sozinho, avisando quando aparece capítulo novo.\n\nO leitor tem página única, página dupla e webtoon, lê da direita pra esquerda como mangá japonês e guarda onde você parou em cada capítulo.",
+      "features": [
+        {
+          "icon": "book",
+          "title": "Leitor completo",
+          "text": "Página única, dupla ou webtoon, com zoom e tela cheia"
+        },
+        {
+          "icon": "sync",
+          "title": "Direita pra esquerda",
+          "text": "Sentido de leitura salvo por mangá"
+        },
+        {
+          "icon": "list",
+          "title": "Pastas monitoradas",
+          "text": "Capítulos novos entram sozinhos na biblioteca"
+        },
+        {
+          "icon": "star",
+          "title": "Continuar lendo",
+          "text": "Volta exatamente na página onde parou"
+        },
+        {
+          "icon": "search",
+          "title": "MyAnimeList",
+          "text": "Capa, sinopse e autores em um clique"
+        },
+        {
+          "icon": "palette",
+          "title": "Do seu jeito",
+          "text": "Tema AMOLED, escuro ou claro e cor de destaque"
+        }
+      ],
+      "screenshots": []
     },
     {
       "id": "proximo",
