@@ -79,7 +79,7 @@
           "key": "server",
           "path": "/apps/desktop/"
         },
-        "label": "Seu servidor Kurocord"
+        "label": "Servidor do Kurocord"
       },
       "about": "O Kurocord é o cantinho da sua turma: chat, voz e tela, feito pra você e seus amigos e rodando no seu próprio PC. Só entra quem recebe convite.\n\nTem app de PC e de celular, que se atualizam sozinhos pelo seu servidor.",
       "features": [
@@ -170,54 +170,6 @@
           "caption": "Jogos grátis e promoções"
         }
       ]
-    },
-    {
-      "id": "mangareader",
-      "name": "MangaReader",
-      "kind": "Leitor de mangás",
-      "description": "Sua biblioteca de mangás no PC: lê pastas, CBZ e PDF, com página dupla e leitura da direita pra esquerda.",
-      "accent": "#5B9DFF",
-      "icon": "icons/mangareader.png",
-      "productName": "MangaReader",
-      "exe": "MangaReader.exe",
-      "source": {
-        "type": "github",
-        "repo": "Kurota007/mangareader-releases"
-      },
-      "about": "O MangaReader é a sua biblioteca de mangás no PC. Aponte as pastas onde eles ficam e ele monta a biblioteca sozinho, avisando quando aparece capítulo novo.\n\nO leitor tem página única, página dupla e webtoon, lê da direita pra esquerda como mangá japonês e guarda onde você parou em cada capítulo.",
-      "features": [
-        {
-          "icon": "book",
-          "title": "Leitor completo",
-          "text": "Página única, dupla ou webtoon, com zoom e tela cheia"
-        },
-        {
-          "icon": "sync",
-          "title": "Direita pra esquerda",
-          "text": "Sentido de leitura salvo por mangá"
-        },
-        {
-          "icon": "list",
-          "title": "Pastas monitoradas",
-          "text": "Capítulos novos entram sozinhos na biblioteca"
-        },
-        {
-          "icon": "star",
-          "title": "Continuar lendo",
-          "text": "Volta exatamente na página onde parou"
-        },
-        {
-          "icon": "search",
-          "title": "MyAnimeList",
-          "text": "Capa, sinopse e autores em um clique"
-        },
-        {
-          "icon": "palette",
-          "title": "Do seu jeito",
-          "text": "Tema AMOLED, escuro ou claro e cor de destaque"
-        }
-      ],
-      "screenshots": []
     },
     {
       "id": "proximo",
