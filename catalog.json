@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "apps": [
     {
       "id": "acervo",
@@ -71,8 +71,8 @@
       "description": "O cantinho da sua turma. Chat, voz e compartilhamento de tela pra você e seus amigos.",
       "accent": "#E3A048",
       "icon": "icons/tsudoi.png",
-      "productName": "Tsudoi",
-      "exe": "Tsudoi.exe",
+      "productName": "Kurocord",
+      "exe": "Kurocord.exe",
       "source": {
         "type": "generic",
         "url": "http://localhost:7878/apps/desktop/",
