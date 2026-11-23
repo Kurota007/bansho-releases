@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "apps": [
     {
       "id": "acervo",
@@ -63,13 +63,13 @@
     },
     {
       "id": "kurocord",
-      "name": "Kurocord",
+      "name": "Tsudoi",
       "kind": "Chat, voz e tela",
-      "description": "O cantinho da sua turma. Chat, voz e compartilhamento de tela pra você e seus amigos.",
-      "accent": "#B5EE4B",
-      "icon": "icons/kurocord.png",
-      "productName": "Kurocord",
-      "exe": "Kurocord.exe",
+      "description": "集い, o lugar onde a turma se reúne. Chat, voz e tela pra você e seus amigos, no seu próprio PC.",
+      "accent": "#E3A048",
+      "icon": "icons/tsudoi.png",
+      "productName": "Tsudoi",
+      "exe": "Tsudoi.exe",
       "source": {
         "type": "generic",
         "url": "http://localhost:7878/apps/desktop/",
@@ -79,9 +79,9 @@
           "key": "server",
           "path": "/apps/desktop/"
         },
-        "label": "Servidor do Kurocord"
+        "label": "Servidor da Tsudoi"
       },
-      "about": "O Kurocord é o cantinho da sua turma: chat, voz e tela, feito pra você e seus amigos e rodando no seu próprio PC. Só entra quem recebe convite.\n\nTem app de PC e de celular, que se atualizam sozinhos pelo seu servidor.",
+      "about": "A Tsudoi (集い, \"encontro\") é onde a sua turma se reúne: chat, calls de voz e tela, rodando no seu próprio PC. Só entra quem recebe convite, e a Kuro avisa quando a turma chega.\n\nTem app de PC e de celular, que se atualizam sozinhos pela sua Tsudoi. Antes se chamava Kurocord.",
       "features": [
         {
           "icon": "chat",
