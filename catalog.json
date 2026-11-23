@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "apps": [
     {
       "id": "acervo",
@@ -66,13 +66,13 @@
     },
     {
       "id": "kurocord",
-      "name": "Kurocord",
+      "name": "Tsudoi",
       "kind": "Chat, voz e tela",
       "description": "O cantinho da sua turma. Chat, voz e compartilhamento de tela pra você e seus amigos.",
-      "accent": "#B5EE4B",
-      "icon": "icons/kurocord.png",
-      "productName": "Kurocord",
-      "exe": "Kurocord.exe",
+      "accent": "#E3A048",
+      "icon": "icons/tsudoi.png",
+      "productName": "Tsudoi",
+      "exe": "Tsudoi.exe",
       "source": {
         "type": "generic",
         "url": "http://localhost:7878/apps/desktop/",
@@ -82,9 +82,9 @@
           "key": "server",
           "path": "/apps/desktop/"
         },
-        "label": "Servidor do Kurocord"
+        "label": "Servidor do Tsudoi"
       },
-      "about": "O Kurocord é o cantinho da sua turma: chat, voz e tela, feito pra você e seus amigos e rodando no seu próprio PC. Só entra quem recebe convite.\n\nTem app de PC e de celular, que se atualizam sozinhos pelo seu servidor.",
+      "about": "O Tsudoi é o cantinho da sua turma: chat, voz e tela, feito pra você e seus amigos e rodando no seu próprio PC. Só entra quem recebe convite.\n\nTem app de PC e de celular, que se atualizam sozinhos pelo seu servidor.",
       "features": [
         {
           "icon": "chat",
@@ -107,7 +107,10 @@
           "text": "App de Android com notificações"
         }
       ],
-      "screenshots": []
+      "screenshots": [],
+      "formerNames": [
+        "Kurocord"
+      ]
     },
     {
       "id": "nijigen",
