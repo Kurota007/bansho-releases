@@ -3,18 +3,18 @@
   "apps": [
     {
       "id": "acervo",
-      "name": "Acervo",
+      "name": "Kanade",
       "kind": "Músicas, vídeos e letras",
-      "description": "Organize suas músicas e vídeos com playlists e letras sincronizadas, tudo num lugar só.",
-      "accent": "#8E9BFF",
-      "icon": "icons/acervo.png",
-      "productName": "Acervo",
-      "exe": "Acervo.exe",
+      "description": "Suas músicas e vídeos com playlists e letras sincronizadas, tudo num lugar só.",
+      "accent": "#2ADAED",
+      "icon": "icons/kanade.png",
+      "productName": "Kanade",
+      "exe": "Kanade.exe",
       "source": {
         "type": "github",
         "repo": "Kurota007/acervo-releases"
       },
-      "about": "O Acervo junta as suas músicas e vídeos do PC num lugar só. Você aponta as pastas, ele monta a biblioteca e você ouve ou assiste direto nele, com playlists e fila.\n\nAs letras aparecem sozinhas e acompanham a música quando tem versão sincronizada. Dá pra baixar músicas e vídeos por link e escolher o visual do app.",
+      "about": "Kanade junta as suas músicas e vídeos do PC num lugar só. Você aponta as pastas, a biblioteca se monta sozinha e você ouve ou assiste ali mesmo, com playlists e fila.\n\nAs letras aparecem sozinhas e acompanham a música quando tem versão sincronizada. Dá pra baixar músicas e vídeos por link e escolher o visual do app.",
       "features": [
         {
           "icon": "list",
@@ -59,17 +59,20 @@
           "src": "screens/acervo/4.jpg",
           "caption": "Configurações"
         }
+      ],
+      "formerNames": [
+        "Acervo"
       ]
     },
     {
       "id": "kurocord",
-      "name": "Tsudoi",
+      "name": "Kurocord",
       "kind": "Chat, voz e tela",
-      "description": "集い, o lugar onde a turma se reúne. Chat, voz e tela pra você e seus amigos, no seu próprio PC.",
-      "accent": "#E3A048",
-      "icon": "icons/tsudoi.png",
-      "productName": "Tsudoi",
-      "exe": "Tsudoi.exe",
+      "description": "O cantinho da sua turma. Chat, voz e compartilhamento de tela pra você e seus amigos.",
+      "accent": "#B5EE4B",
+      "icon": "icons/kurocord.png",
+      "productName": "Kurocord",
+      "exe": "Kurocord.exe",
       "source": {
         "type": "generic",
         "url": "http://localhost:7878/apps/desktop/",
@@ -79,9 +82,9 @@
           "key": "server",
           "path": "/apps/desktop/"
         },
-        "label": "Servidor da Tsudoi"
+        "label": "Servidor do Kurocord"
       },
-      "about": "A Tsudoi (集い, \"encontro\") é onde a sua turma se reúne: chat, calls de voz e tela, rodando no seu próprio PC. Só entra quem recebe convite, e a Kuro avisa quando a turma chega.\n\nTem app de PC e de celular, que se atualizam sozinhos pela sua Tsudoi. Antes se chamava Kurocord.",
+      "about": "O Kurocord é o cantinho da sua turma: chat, voz e tela, feito pra você e seus amigos e rodando no seu próprio PC. Só entra quem recebe convite.\n\nTem app de PC e de celular, que se atualizam sozinhos pelo seu servidor.",
       "features": [
         {
           "icon": "chat",
@@ -108,18 +111,18 @@
     },
     {
       "id": "nijigen",
-      "name": "Nijigen",
+      "name": "Shiori",
       "kind": "Animes, mangás e jogos",
       "description": "Sua lista de animes, mangás e jogos, com perfil e amigos.",
-      "accent": "#E879F9",
-      "icon": "https://raw.githubusercontent.com/Kurota007/bansho-releases/main/icons/nijigen.png",
-      "productName": "Nijigen",
-      "exe": "Nijigen.exe",
+      "accent": "#EC3B30",
+      "icon": "icons/shiori.png",
+      "productName": "Shiori",
+      "exe": "Shiori.exe",
       "source": {
         "type": "github",
         "repo": "Kurota007/nijigen-releases"
       },
-      "about": "O Nijigen é a sua lista de animes, mangás e jogos. Busque pelo nome ou cole o link do MyAnimeList ou da Steam, e organize tudo por status: Desejo, Andamento, Completo e Dropei.\n\nAcompanhe suas estatísticas, veja os jogos grátis e as promoções do que você quer, e compartilhe com os amigos.",
+      "about": "A Shiori é a sua lista de animes, mangás e jogos. Busque pelo nome ou cole o link do MyAnimeList ou da Steam, e organize tudo por status: Desejo, Andamento, Completo e Dropei.\n\nAcompanhe suas estatísticas, veja os jogos grátis e as promoções do que você quer, e compartilhe com os amigos.",
       "features": [
         {
           "icon": "search",
@@ -169,7 +172,11 @@
           "src": "screens/nijigen/4.jpg",
           "caption": "Jogos grátis e promoções"
         }
-      ]
+      ],
+      "formerNames": [
+        "Nijigen"
+      ],
+      "notice": "A Shiori está ganhando um visual novo. Por enquanto, a versão pra baixar ainda é a do Nijigen."
     },
     {
       "id": "sumi",
