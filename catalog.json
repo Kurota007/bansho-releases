@@ -1,11 +1,11 @@
 {
-  "version": 10,
+  "version": 9,
   "apps": [
     {
       "id": "acervo",
       "name": "Kanade",
       "kind": "Músicas, vídeos e letras",
-      "description": "Suas músicas e vídeos com playlists e letras sincronizadas, tudo num lugar só.",
+      "description": "Suas músicas e vídeos com playlists, curtidas e letras sincronizadas, tudo num lugar só.",
       "accent": "#2ADAED",
       "icon": "icons/kanade.png",
       "productName": "Kanade",
@@ -14,50 +14,60 @@
         "type": "github",
         "repo": "Kurota007/acervo-releases"
       },
-      "about": "Kanade junta as suas músicas e vídeos do PC num lugar só. Você aponta as pastas, a biblioteca se monta sozinha e você ouve ou assiste ali mesmo, com playlists e fila.\n\nAs letras aparecem sozinhas e acompanham a música quando tem versão sincronizada. Dá pra baixar músicas e vídeos por link e escolher o visual do app.",
+      "about": "A Kanade junta as suas músicas e vídeos do PC num lugar só. Você aponta as pastas, a biblioteca se monta sozinha e você ouve ou assiste ali mesmo, com playlists, fila e a tela Tocando agora.\n\nAs letras aparecem sozinhas e acompanham a música quando tem versão sincronizada. Dá pra curtir o que você gosta, baixar do YouTube ou trazer playlists do Spotify, e quando a janela vai pra bandeja um mini player continua tocando.",
       "features": [
         {
           "icon": "list",
           "title": "Biblioteca das suas pastas",
-          "text": "Escolha as pastas e o Acervo organiza tudo"
+          "text": "Escolha as pastas e a Kanade organiza tudo"
         },
         {
           "icon": "music",
           "title": "Músicas e vídeos",
-          "text": "Toca os dois, com playlists e fila"
+          "text": "Toca os dois, com playlists, fila e Tocando agora"
         },
         {
           "icon": "text",
           "title": "Letras sincronizadas",
-          "text": "Busca a letra sozinho e acompanha a música"
+          "text": "Busca a letra sozinha e acompanha a música"
+        },
+        {
+          "icon": "heart",
+          "title": "Curtidas",
+          "text": "Um coração em toda música e a playlist Curtidas pronta"
         },
         {
           "icon": "download",
-          "title": "Downloads",
-          "text": "Baixe músicas e vídeos colando o link"
+          "title": "YouTube e Spotify",
+          "text": "Baixe por link e confira a lista antes de baixar"
+        },
+        {
+          "icon": "screen",
+          "title": "Mini player",
+          "text": "Continua tocando com a janela minimizada"
         },
         {
           "icon": "palette",
-          "title": "Do seu jeito",
-          "text": "Tema escuro, AMOLED ou claro e cor de destaque"
+          "title": "Do jeito dela",
+          "text": "Temas Kanade, Tinta, AMOLED e Papel"
         }
       ],
       "screenshots": [
         {
-          "src": "screens/acervo/1.jpg",
-          "caption": "Biblioteca"
+          "src": "screens/kanade/1.jpg",
+          "caption": "Playlists"
         },
         {
-          "src": "screens/acervo/2.jpg",
-          "caption": "Biblioteca em grade"
+          "src": "screens/kanade/2.jpg",
+          "caption": "Tocando agora"
         },
         {
-          "src": "screens/acervo/3.jpg",
-          "caption": "Downloads"
+          "src": "screens/kanade/3.jpg",
+          "caption": "Downloads do YouTube e Spotify"
         },
         {
-          "src": "screens/acervo/4.jpg",
-          "caption": "Configurações"
+          "src": "screens/kanade/4.jpg",
+          "caption": "Configurações e temas"
         }
       ],
       "formerNames": [
@@ -72,7 +82,7 @@
       "accent": "#E3A048",
       "icon": "icons/tsudoi.png",
       "productName": "Tsudoi",
-      "exe": "Kurocord.exe",
+      "exe": "Tsudoi.exe",
       "source": {
         "type": "generic",
         "url": "http://localhost:7878/apps/desktop/",
@@ -109,8 +119,7 @@
       ],
       "screenshots": [],
       "formerNames": [
-        "Kurocord",
-        "Tsudoi"
+        "Kurocord"
       ]
     },
     {
